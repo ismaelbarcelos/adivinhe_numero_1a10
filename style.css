@@ -3,7 +3,7 @@
 
 
 body{
-  background: #f0f8ff;
+  background: #96999b;
 }
 
 section{
@@ -28,7 +28,8 @@ button{
   background:#ff9800;
   border-radius: 5px;
   border: solid 1px rgb(137, 112, 112);
-  
+  font-family: "Exo 2",sans-serif;
+  font-size: 20px;
 }
 
 button:hover{
@@ -49,10 +50,11 @@ button:hover{
 }
 
 .resetar{
+   background: #e9e4e1;
    
     margin: auto;
     margin-top: 25px;
-    width: 95px;
+    width: 200px;
     height: 35px;
 
   }
