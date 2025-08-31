@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+  background: #f0f8ff;
+}
+
+section{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #333;
+  font-family: "Exo 2",sans-serif;
+}
+
+
+
+
+
+
+button{
+  margin: 10px;
+  width: 60px;
+  height: 30px;
+  background:#ff9800;
+  border-radius: 5px;
+  border: solid 1px rgb(137, 112, 112);
+  
+}
+
+button:hover{
+  box-shadow: 3px 3px 1px black;
+  background: #f44336;
+  color:#f0f8ff;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+   color:#f0f8ff;
+    background: #333;
+    margin-right: 10px;
+    border-radius: 3px;
+    min-height: 30px;
+    padding: 5px;
+}
+
+.resetar{
+   
+    margin: auto;
+    margin-top: 25px;
+    width: 95px;
+    height: 35px;
+
+  }
+
+  .ganhou{
+    color:#4caf50;
+    background: #333;
+    margin-right: 10px;
+border-radius: 3px;
+    width: 330px;
+    min-height: 30px;
+    padding: 5px;
+  }
+  .perdeu{
+    color:#f44336;
+    background: #333;
+    border-radius: 3px;
+    width: 330px;
+    min-height: 30px;
+    padding:5px;
+    
+    
+  }
+
+  .res{
+    display: flex;
+    justify-content: center;
+    
+   
+  }

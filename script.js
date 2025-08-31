@@ -1,4 +1,4 @@
-let Random = Math.floor(Math.random()*10)+1 ;
+
 let contV =0
 let contD =0
 let res = document.getElementById("resultado")
@@ -8,27 +8,33 @@ let derrota = document.getElementById("derrota")
 function pegarNumero(x){
 
  res.innerText = "Você escolheu "+ x
-  
+
+ let Random = Math.floor(Math.random()*10)+1 ;
+  PCres.innerHTML = "O número era "+ Random 
+ 
   if (x == Random){
 contV++
-    vitoria.innerHTML = "vezes que você ganhou "+ contV
+    vitoria.innerHTML = "vezes que você ganhou 😎: "+ contV
+    
   }else {
     contD++
-    derrota.innerHTML = "vezes que você perdeu "+ contD
+    derrota.innerHTML = "vezes que você perdeu 😞: "+ contD
+    
   }
 
 }
-function random(){
+//function random(){
   
-  let Random = Math.floor(Math.random()*10)+1 ;
-  PCres.innerHTML = "O computador escolheu "+ Random 
-}
+//  let Random = Math.floor(Math.random()*10)+1 ;
+// PCres.innerHTML = "O número era "+ Random 
+  
+//}
 
 function resetar(){
- res.innerText = "Você escolheu " +0
-  PCres.innerText = "O computador escolheu "+ 0
-  vitoria.innerHTML = "vitoria "+ 0
-  derrota.innerHTML = "derrota "+ 0
+ res.innerText = "Você escolheu ?"
+  PCres.innerText = "O número será..."
+  vitoria.innerHTML = "vezes que você ganhou 😎: "
+  derrota.innerHTML = "vezes que você perdeu 😞:" 
   contD =0
   contV = 0
 
